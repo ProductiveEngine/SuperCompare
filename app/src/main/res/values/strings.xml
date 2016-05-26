@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Super Compare</string>
+    <string name="app_descrip">
+        Super Compare is a benchmarking application <br/>
+        for mobile devices.
+    </string>
+    <string name="app_credits">Copyright &#169; 2015 Productive Engine </string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="algoInfo_settings">Algorithm Info</string>
+    <string name="about_settings">About</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+

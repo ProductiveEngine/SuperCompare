@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dip">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/app_descrip"
+        android:id="@+id/txtInfo" />
+
+    <TextView
+        android:id="@+id/txtCopyright"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dip"
+        android:textSize="16sp"
+        android:text="@string/app_credits"
+        android:autoLink="web"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="End User Licence Agreement"
+        android:id="@+id/txtEULATitle"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal"
+        android:text="COPYRIGHTS: Copyright 2015 Productive Engine. All Rights Reserved.  The Super Compare software is Copyright 2015 Productive Engine. All  rights reserved. This software may not, in whole or in any part, be  copied, reproduced, transmitted, translated (into any language, natural  or computer), stored in a retrieval system, reduced to any electronic  medium or machine readable format, or by any other form or means  without prior consent, in writing, from Productive Engine.  TRADEMARKS: The Logo Super Compare was created using the Logo and Graphics Generator from www.cooltext.com The software is developed on Android Studio  LICENSE: THE SOFTWARE SHALL BE TAKEN TO MEAN THE SOFTWARE  CONTAINED IN THIS PACKAGE AND ANY SUBEQUENT  VERSIONS OR UPGRADES RECEIVED AS A RESULT OF HAVING  PURCHASED THIS PACKAGE. BUYER SHALL BE TAKEN AS  THE ORIGINAL PURCHASER OF THE SOFTWARE. BUYER HAS THE NON-EXCLUSIVE RIGHT TO USE THE  SOFTWARE ONLY ON A SINGLE COMPUTER. BUYER MAY NOT  ELECTRONICALLY TRANSFER THE PROGRAM FROM ONE  COMPUTER TO ANOTHER OVER ANY TYPE OF NETWORK.  BUYER MAY NOT DISTRIBUTE COPIES OF THE SOFTWARE OR  THE ACCOMPANYING DOCUMENTATION TO OTHERS EITHER  FOR A FEE OR WITHOUT CHARGE. BUYER MAY NOT MODIFY  OR TRANSLATE THE PROGRAM OR DOCUMENTATION. USER  MAY NOT DISASSEMBLE THE PROGRAM OR ALLOW IT TO BE  DISASSEMBLED INTO ITS CONTITUENT SOURCE CODE. BUYER'S USE OF THE SOFTWARE INDICATES HIS/HER  ACCEPTANCE OF THESE TERMS AND CONDITIONS. IF BUYER  DOES NOT AGREE TO THESE CONDITIONS, ERASE THE SOFTWARE FROM ANY  AND ALL STORAGE DEVICES UPON WHICH IT MAY HAVE BEEN  INSTALLED.  DISCLAIMER OF WARRANTY: THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. BUYER ACKNOWLEDGES THAT THE SOFTWARE MAY NOT BE FREE FROM DEFECTS AND MAY NOT SATISFY ALL OF BUYER'S NEEDS."
+        android:editable="false"
+        android:enabled="true" />
+
+
+</LinearLayout>
